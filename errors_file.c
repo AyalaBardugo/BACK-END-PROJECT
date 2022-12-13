@@ -5,7 +5,7 @@
 /* This function receives line number as a parameter and prints the details of the specific error */
 void report_errors_in_line(int line_cnt)
 {
-   /* fprintf(stderr, "ERROR (line %d): ", line_cnt);*/
+    fprintf(stderr, "ERROR (line %d): ", line_cnt);
 
     switch(error)
     {
