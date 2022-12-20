@@ -17,15 +17,18 @@ The assembler will output .ent, .ext and .ob files
 
 ## File Structure
 **Assembler Files:**
-- `read_input.c` - Main program.
-- `first_pass.c` - An implementation of first pass algorithm
-- `first_analyze.c` - Analyzes the line after it has been parsed by parser.c. This is the execution of first_pass.c
+
+- `main.c` - Main program.
+
+- `first_pass.c` - An implementation of first pass algorithm.
+
+- `first_analyze.c` - Auxiliary methods for encoding the rows in memory
 
 - `second_pass.c` - An implementation of second pass algorithm.
 
 - `errors.c` - A thorough check of errors during first and second pass.
 
-- `translate.c` - Creates .ext, .ent and .ob output files.
+- `macro_layuot.c` - Returns a file after macro's layout.
 
 **Data Structures:**
 - `macro_list` - Save all the macro lines from source file and implement it into Macro expanded file
