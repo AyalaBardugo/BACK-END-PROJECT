@@ -11,7 +11,7 @@
 
 **Run** `make`
 
- **Run** `./assembler yourFileName.as`
+ **Run** `./assembler yourFileName`
 The assembler will output .ent, .ext and .ob files
 
 
