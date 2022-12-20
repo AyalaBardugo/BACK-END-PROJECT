@@ -86,7 +86,7 @@ Usage of labels is optional. A label is any word (reserved words not allowed) wh
 **Instruction Sentence**
 
 - `.data` - declaration of integers. For example: `.data 12, 453, -6`.
-- `.string` - declaration of a string contained within " ". For example: `.string "abc!"`.
+- `.string` - declaration of a string contained within " ". For example: `.string "abc"`.
 - `.extern` - reference to an external label, declared in another file. For example `.extern myLabel`.
 - `.entry` - reference to an internal label, that already was or will be declared in the program. For example `.entry myLabel`.
 
