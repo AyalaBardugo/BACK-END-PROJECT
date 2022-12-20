@@ -40,7 +40,7 @@ The assembler will output .ent, .ext and .ob files
 
 **Helpers and utils:**
 
--`reserved_word.c` - main program helpers to check arguments validity.
+- `reserved_word.c` - main program helpers to check arguments validity.
 
 - `utils.c` - General program helpers.
 
