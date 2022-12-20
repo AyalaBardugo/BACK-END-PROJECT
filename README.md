@@ -30,6 +30,7 @@ The assembler will output .ent, .ext and .ob files
 
 - `macro_layuot.c` - Returns a file after macro's layout.
 
+
 **Data Structures:**
 
 - `structs.h` - Contains the structures needed for the program.
@@ -37,6 +38,7 @@ The assembler will output .ent, .ext and .ob files
 - `external_linked_list_struct.c` - Used to represent Extern Symbol Table of the assembler.
 
 - `label_linked_list_struct.c` - Used to represent  internal Symbol Table of the assembler.
+
 
 **Helpers and utils:**
 
