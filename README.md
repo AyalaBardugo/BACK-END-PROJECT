@@ -31,31 +31,22 @@ The assembler will output .ent, .ext and .ob files
 - `macro_layuot.c` - Returns a file after macro's layout.
 
 **Data Structures:**
-- `macro_list` - Save all the macro lines from source file and implement it into Macro expanded file
 
-- `word_list` - Represents a line read from input .as file after it was parsed and analyzed.
+- `structs.h` - Contains the structures needed for the program.
 
-- `symbol_table` - Used to represent Symbol Table of the assembler.
+- `external_linked_list_struct.c` - Used to represent Extern Symbol Table of the assembler.
 
-- `extern_list` - Used to represent Extern Symbol Table of the assembler.
+- `label_linked_list_struct.c` - Used to represent  internal Symbol Table of the assembler.
+
 **Helpers and utils:**
 
+-`reserved_word.c` - main program helpers to check arguments validity.
 
-- `funcs.c` - main program helpers to free data structures and check arguments validity.
+- `utils.c` - General program helpers.
 
-- `head.h` - Implementation of boolean values, and constants.
+- `declerations_of_constants.h` - statement of operations.
 
-- `utils.c` - General program helpers (validates malloc, successful fopen/fclose etc).
-
-- `str_methods.c` - String functions and manipulation.
-
-- `textHandling.c` - Check if the string have a correct Data.
-
-- `global_var.c` - Holds all the global variables of the Assembler.
-
-
-
-
+- `declerations_of_functions.h` - Statement of constants.
 
 
 ## Computer and Language Structure
