@@ -53,8 +53,6 @@ The assembler will output .ent, .ext and .ob files
 |                       |                        | %& 	$@              |           ||
 |                       |                        | %* 	!!              |           ||
 
-
-
 ## File Structure
 **Assembler Files:**
 
