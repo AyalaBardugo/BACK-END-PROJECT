@@ -74,7 +74,7 @@ Each computer instruction consists between 1 to 3 words which are encoded in the
 
 | file.as             | file.am                | file.ob                | file.ent  | file.ext|
 | :--------           | :-------               | :----------------------| | :-------| | :-----|
-| macro m1            | .entry LOOP            | $% 	@%              | LOOP $b   |  W $*    |
+| `macro m1`            | .entry LOOP            | $% 	@%              | LOOP $b   |  W $*    |
 | inc K               | .entry LENGTH          | $^ 	gm              | LENGTH %@ | W $c  |
 | mov S1.2 ,r3        | .extern L3             | $& 	!%              |           | L3 $o|
 | endmacro              | .extern W              | $* 	!@              |           | | 
