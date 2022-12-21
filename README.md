@@ -14,6 +14,9 @@
  **Run** `./assembler yourFileName`
 The assembler will output .ent, .ext and .ob files
 
+## Usage
+
+**Run** `make`
 
 
 
@@ -55,6 +58,7 @@ The assembler will output .ent, .ext and .ob files
 |                       |                        | %^ 	!<              |           ||
 |                       |                        | %& 	$@              |           ||
 |                       |                        | %* 	!!              |           ||
+
 
 
 
