@@ -12,14 +12,9 @@
 **Run** `make`
 
  **Run** `./assembler yourFileName`
+ 
+ 
 The assembler will output .ent, .ext and .ob files
-
-## Usage
-
-**Run** `make`
-
-
-
 | file.as             | file.am                | file.ob                | file.ent  | file.ext|
 | :--------           | :-------               | :----------------------| | :-------| | :-----|
 | macro m1            | .entry LOOP            | $% 	@%              | LOOP $b   |  W $*    |
@@ -58,10 +53,6 @@ The assembler will output .ent, .ext and .ob files
 |                       |                        | %^ 	!<              |           ||
 |                       |                        | %& 	$@              |           ||
 |                       |                        | %* 	!!              |           ||
-
-
-
-
 
 
 
