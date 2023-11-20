@@ -21,46 +21,8 @@
 - `file.ent` - The entry labels from the source file
 - `file.ext` - The extern labels from the source file
 
+![פרויקט](https://github.com/AyalaBardugo/BACK-END-PROJECT/assets/120474850/12755acc-a9f5-408e-a801-392125a11c0a)
 
-
-| `file.as`               | `file.am`                | `file.ob`                | `file.ent`  | `file.ext`|
-| :--------           | :-------             | :----------------------| :------- |  :-----|
- macro m1              | .entry LOOP            | $% @%                   | LOOP $b   |  W $*    |
-| inc K                 | .entry LENGTH          | $^ gm                   | LENGTH %@ |  W $c  |
-| mov S1.2 ,r3          | .extern L3             | $& !%                   |           |  L3 $o|
-| endmacro              | .extern W              | $* !@                   |           |         |
-| .entry LOOP           | inc K                  | $< ^k                   |           |         |
-| .entry LENGTH         | mov S1.2 ,r3           | $> %!                   |           ||
-| .extern L3            | MAIN: mov S1.1, W      | $a fa                   |           ||
-| .extern W             | add r2,STR             | $b i%                   |           ||
-| m1                    | LOOP: jmp W            | $c !@                   |           ||
-| MAIN: mov S1.1, W     | prn #-5                | $d o!                   |           ||
-| add r2,STR            | sub r1, r4             | $e vc                   |           ||
-| LOOP: jmp W           | inc K                  | $f *s                   |           ||
-| prn #-5               | mov S1.2, r3           | $g #g                   |           ||
-| sub r1, r4            | bne L3                 | $h e%                   |           ||
-| inc K                 | END: hlt               | $i gi                   |           | |
-| mov S1.2, r3          | STR: .string "abcdef"  | $g @c                   |           ||
-| bne L3                | LENGTH: .data 6,-9,15  | $k gm                   |           ||
-| END: hlt              | K: .data 22            | $l !<                   |           ||
-| STR: .string "abcdef" | S1: .struct 8, "ab"    | $m !c                   |           ||
-| LENGTH: .data 6,-9,15 |                        | \$n k%                   |           ||
-| K: .data 22           |                        | $o !@                   |           ||
-| S1: .struct 8, "ab"   |                        | $p u!                   |           ||
-|                       |                        | \$ q $@                   |           ||
-|                       |                        | \$ r $#                   |           ||
-|                       |                        | \$ s $$                   |           ||
-|                       |                        | \$ t $%                   |           ||
-|                       |                        | \$ u $^                   |           ||
-|                       |                        | \$ v $&                   |           ||
-|                       |                        | \% ! !!                   |           ||
-|                       |                        | \% @ !&                   |           ||
-|                       |                        | \% # vn                   |           ||
-|                       |                        | \% $ !f                   |           ||
-|                       |                        | \% % !m                   |           ||
-|                       |                        | \% ^ !<                   |           ||
-|                       |                        | \% & $@                   |           ||
-|                       |                        | \% * !!                   |           ||
 
 
 
